@@ -40,7 +40,7 @@ app.get("/", cache, async (req, res) => {
                 });
 
                 let covidData = {
-                    total: {
+                    allTime: {
                         labTest: numberList[0],
                         confirmedCases: numberList[1],
                         isolationCases: numberList[2],
@@ -72,5 +72,5 @@ app.get("/", cache, async (req, res) => {
 });
 
 app.listen(expressPort, () =>
-    console.log(`App up and running, time: ${Date()}`)
+    console.log(`App up and running at ${expressPort}, time: ${Date()}`)
 );
