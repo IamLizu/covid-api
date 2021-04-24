@@ -48,11 +48,11 @@ app.get("/", cache, async (req, res) => {
                         deaths: numberList[4],
                     },
                     last24Hours: {
-                        labTest: numberList[5],
-                        confirmedCases: numberList[6],
-                        isolationCases: numberList[7],
-                        recoveredCases: numberList[8],
-                        deaths: numberList[9],
+                        labTest: numberList[6],
+                        confirmedCases: numberList[7],
+                        isolationCases: numberList[8],
+                        recoveredCases: numberList[9],
+                        deaths: numberList[10],
                     },
                 };
 
